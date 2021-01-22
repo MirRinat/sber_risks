@@ -1,0 +1,30 @@
+{
+	"result": {
+		"client": {
+			"client_1": {
+				"rules": [
+					"rule_1", "rule_2"
+				],
+				"countOpenLiability": 2,
+				"countCloseLiability": 3,
+				"sumDelays": 5000,
+				"statusCH": "B",
+				"arrayLiability": [
+					"24RV2-V2", "24RV2", "4TV2-TV2-AFV"
+				]
+			},
+			"client_2": {
+				"rules": [
+					"rule_3", "rule_4"
+				],
+				"countOpenLiability": 1,
+				"countCloseLiability": 3,
+				"sumDelays": 0,
+				"statusCH": "G",
+				"arrayLiability": [
+					"24RV2-V2", "24RV2", "4TV2-TV2-AFV"
+				]
+			}
+		}
+	}
+}
